@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/roots_form.css">
+    <link rel="stylesheet" href="bank.css/signup.css">
+    <link rel="stylesheet" href="bank.css/roots_form.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="signup">
+        <form name="signup" id="form" action="" method="post">
+            <h2>CREATE AN ACCOUNT</h2>
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+                </div>
+                <div class="input-group">
+                    <label for="lastname">Lastname</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email address">
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone number</label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter Phone number">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="phone">ID</label>
+                    <select name="select" id="select">
+                        <option value="">Select ID</option>
+                        <option value="">Home</option>
+                        <option value="">Contact</option>
+                        <option value="">Services</option>
+                        <option value="">Contact</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="nin">NIN / BVN</label>
+                    <input type="number" id="nin" name="phone" placeholder="Enter NIN/BVN">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <i class="show fa fa-regular fa-eye-slash"></i>
+                    <i class="hide fa fa-regular fa-eye"></i>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-type Password">
+                    <i class="show fa fa-regular fa-eye-slash"></i>
+                    <i class="hide fa fa-regular fa-eye"></i>
+                </div>
+            </div>
+            <button name="submit" type="submit" on>SIGN UP</button>
+            <div class="have-an-account">
+                <p>Already have an account? <a href="login_form.html" style="color: #0b1629;">Log in</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

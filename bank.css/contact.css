@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.main {
+    background-color:  rgb(214, 176, 79);
+}
+
+.main-header {
+   text-align: center;
+}
+
+.main-header h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-header p {
+    font-size: 14px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 23px;
+    padding-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 70px;
+    margin-left: 210px;
+}
+
+.content-icon {
+    display: block;
+    position: relative;
+    bottom: 30px;
+}
+
+.content-icon .c-icon1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.c-icon1a {
+    color: rgb(214, 176, 79);
+    background-color: rgb(26, 24, 24);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+
+.c-icon1a:hover {
+ color: #fff;
+}
+
+.c-icon1a .fa-envelope {
+    position: relative;
+    top: 14px;
+    font-size: 20px;
+    left: 15px;
+}
+
+.c-icon1a .fa-phone {
+    position: relative;
+    top: 14px;
+    font-size: 20px;
+    left: 15px;
+}
+
+.c-icon1a .fa-location-dot {
+    position: relative;
+    top: 14px;
+    font-size: 20px;
+    left: 17px;
+}
+
+.content-icon .icon1-txt {
+    margin-left: 30px;
+}
+
+.icon1-txt p {
+    text-align: justify;
+}
+
+.content-form {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    bottom: 20px;
+    left: 20%;
+    padding: 20px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:  rgb(214, 176, 79);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color:  #0b1629;
+    border: 1px solid rgb(214, 176, 79);
+}
+  
+
+footer { 
+    background-color: #0b1629;
+    display: flex;
+    color: rgb(218, 213, 202);
+    justify-content: center;
+}
+
+footer .foot1 {
+    padding: 80px 40px;
+    font-size: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot2 {
+    font-size: 15px;
+    padding: 20px 90px;
+
+}
+
+.foot2 a {
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot3{
+    font-size: 15px;
+    padding: 20px 90px;
+}
+
+.foot3 a {
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot-btn {
+    padding: 80px 90px;
+}
+
+.foot-btn button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 19px;
+    font-family: "Open Sans";
+    background-color:  rgb(214, 176, 79);
+}
+
+.foot-btn button:hover {
+    background-color: #0b1629;
+    border: 1px solid  rgb(214, 176, 79);
+    color:  rgb(214, 176, 79);
+    transition: 0.3s all ease;
+}

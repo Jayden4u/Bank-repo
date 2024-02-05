@@ -1,0 +1,12 @@
+:root {
+    --header-shadow: #0000ff0f;
+    --hover-color: gold;
+    --text-color: rgb(93, 79, 2);
+    --text-color-a: rgb(239, 224, 136);
+    --nav-text-color:  rgb(200, 171, 5);
+    --dropdown-border-color: rgb(175, 154, 38);
+    --dropdown-text-color: rgb(234, 215, 106);
+    --button-color: gold;
+    --input-color: #fff;
+    --footer-bg-color: gold;
+}

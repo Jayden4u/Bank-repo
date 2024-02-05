@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    background-color: #fff;
+    font-family: "Open Sans";
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.wrapper {
+    width: 100%;
+    /* margin-bottom: 0; */
+}
+
+.nav {
+    background: rgb(236, 235, 232);
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.nav .logo {
+    /* width: 100px; */
+    margin-left: 10px;
+}
+
+.nav .vl {
+    border-left: 2px solid #111;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.nav .C-title {
+    font-size: 15px;
+    color: #111;
+    margin-left: 20px;    
+    margin-top: 10px;
+}
+
+.nav .nav-bar {
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    text-align: justify;
+}
+
+.nav .nav-bar a {
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.nav-bar1:hover a{
+    color: goldenrod;
+    transition: 0.2s all ease;
+}
+
+.nav-bar2:hover a{
+    color: goldenrod;
+    transition: 0.2s all ease;
+}
+
+.nav-bar3:hover a{
+    color: goldenrod;
+    transition: 0.2s all ease;
+}
+
+.nav-bar4:hover a{
+    color: goldenrod;
+    transition: 0.2s all ease;
+}
+
+.content {
+    background-color: #0b1629;
+    display: flex;
+    
+}
+
+.content .content-image {
+    display: block;
+}
+
+.content-image  img {
+    position: relative;
+    bottom: 50px;
+}
+
+.social-icons {
+    /* text-align: center; */
+    margin-left: 60px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.social1:hover .fa-facebook {
+    /* background: black; */
+    color: #fff;
+    transition: 0.3s all ease;
+}
+
+.social2:hover .fa-instagram {
+    color: #fff;
+    transition: 0.3s all ease;
+}
+
+.social3:hover .fa-whatsapp {
+    color: #fff;
+    transition: 0.3s all ease;
+}
+
+.social4:hover .fa-twitter {
+    color: #fff;
+    transition: 0.3s all ease;
+}
+
+.content-image .fab {
+    color: goldenrod;
+    position: relative;
+    bottom:150px;
+    left: 120px;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.content .content-image-txt {
+    display: block;
+}
+
+.content-image-txt h3 {
+    color: goldenrod;
+    margin-top: 100px;
+}
+
+ .content-image-txt p {
+    margin-top: 20px;
+    color: #c9bfbf;
+    text-align: justify;
+}
+
+.content-image-txt{
+    text-align: center;
+    width: 800px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.content-btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background: goldenrod;
+    border: none;
+    border-radius: 20px;
+}
+
+.content-btn:hover  {
+    background:  rgb(121, 91, 17);
+    transition: 0.4s all ease;
+}
+
+.content-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 1000px;
+}
+
+
+.buttons .vl {
+    border-left: 2px solid goldenrod;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 13px;
+  
+}
+
+.content-btn2 {
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 200px;
+    height: 50px;
+    background: goldenrod;
+    border: none;
+    border-radius: 20px;
+}
+
+.content-btn2:hover {
+    background: rgb(121, 91, 17);
+    transition: 0.4s all ease;
+}
+
+.content-btn2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 1000px;
+}
+
+ #services {
+    background: goldenrod;
+    /* color: #e09533; */
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    
+}
+
+#services .line {
+    content: "";
+    height: 3px;
+    width: 10%;
+    background-color: #0b1629;
+    position: relative;
+    left: 610px;
+    top: 20px;
+} 
+
+.service-box {
+    display: flex;
+    justify-content: center;
+}
+
+.service-img1 {
+    /* margin-left: 0px; */
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.service-txt {
+    margin-top: 80px;
+    border: 1px solid #fff;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.service-txt h3 {
+    font-size: 24px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.service-txt p {
+    width: 700px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.service-box2 {
+    display: flex;
+    /* margin-bottom: 100px; */
+}
+ .service-txt2 {
+    margin-top: 20px;
+    width: 70%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: 1px solid #fff;
+}
+
+.service-txt2 h3 {
+    font-size: 24px;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;  
+}
+
+.service-txt2 p {
+    width: 700px;
+    text-align: justify;
+    position: relative;
+    left: 20px;
+}
+
+.service-box3 {
+    display: flex;
+}
+
+.service-txt3 {
+    margin-top: 90px;
+    width: 70%;
+    height: 160px;
+    width: 750px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.service-txt3 h3 {
+    font-size: 24px;
+    margin-left: 20px;
+    position: relative;
+    top: 20px; 
+}
+.service-txt3 p {
+    width: 700px;
+    text-align: justify;
+    position: relative;
+    left: 20px; 
+}
+
+footer { 
+    background-color: #0b1629;
+    display: flex;
+    color: rgb(218, 213, 202);
+    height: 180px;
+    justify-content: center;
+}
+
+footer .foot1 {
+    padding: 80px 40px;
+    font-size: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot2 {
+    font-size: 15px;
+    padding: 20px 90px;
+
+}
+
+.foot2 a {
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot3{
+    font-size: 15px;
+    padding: 20px 90px;
+}
+
+.foot3 a {
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    color: rgb(224, 219, 219);
+}
+
+footer .foot-btn {
+    padding: 80px 90px;
+}
+
+.foot-btn button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 19px;
+    font-family: "Open Sans";
+    background-color:  rgb(214, 176, 79);
+}
+
+.foot-btn button:hover {
+    background-color: #0b1629;
+    border: 1px solid  rgb(214, 176, 79);
+    color:  rgb(214, 176, 79);
+}
