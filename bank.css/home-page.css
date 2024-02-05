@@ -30,6 +30,7 @@ html{
     z-index: 1;
     top: 0;
     width: 100%;
+    /* box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.41); */
 }
 
 .nav .logo {
@@ -52,10 +53,13 @@ html{
 }
 
 .nav .nav-bar {
+    width: 45%;
     margin-left: 300px;
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
     text-align: justify;
+    align-items: center;
 }
 
 .nav .nav-bar a {
@@ -240,7 +244,7 @@ html{
     width: 10%;
     background-color: #0b1629;
     position: relative;
-    left: 610px;
+    left: 650px;
     top: 20px;
 } 
 

@@ -1,9 +1,10 @@
 /**************************** form ************************/
 
-body{
+body {
     background: #352d2d;
     font-family: "Open Sans";
 }
+
 .login {
     position: relative;
     margin: 10% 30%;
@@ -15,35 +16,44 @@ body{
     user-select: none;
     background-color: goldenrod;
 }
+
 .login h2 {
     text-align: center;
     color: var(--nav-text-color);
     margin: 20px 0;
     font-size: 25px;
 }
-.login form .input-group, .submit, .forgot-password {
+
+.login form .input-group,
+.submit,
+.forgot-password {
     margin: 15px 30px;
     font-size: 14px;
     width: 70%;
 }
+
 .login form .input-group label {
     font-size: 14px;
     color: var(--dropdown-border-color);
     font-weight: 500;
     color: #352d2d;
 }
-.login ::placeholder{
+
+.login ::placeholder {
     font-size: 13px;
     color: var(--dropdown-text-color);
 }
+
 .login input:focus::placeholder {
     color: var(--input-color);
 }
+
 .login form .form-group {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
+
 .login form .input-group input[type="email"],
 .login form .input-group input[type="password"] {
     margin-top: 5px;
@@ -56,12 +66,19 @@ body{
     font-family: "Open Sans";
     background: var(--text-color);
     font-weight: 700;
+    color: var(--input-color);
 }
-.login form .div{
+
+.input-group {
+    color: var(--input-color);
+}
+
+.login form .div {
     font-size: 16px;
     color: var(--text-color);
     margin-left: 27px;
 }
+
 .login form button {
     width: 40%;
     margin-left: 25%;
@@ -77,11 +94,13 @@ body{
     color: var(--border-color);
     transition: 0.3s ease;
 }
+
 .login form button:hover {
     cursor: pointer;
     background: linear-gradient(to right, var(--hover-color), rgba(0, 0, 0, 0.2));
     color: var(--header-bg-color);
 }
+
 .login form .have-an-account p {
     display: block;
     text-align: center;
@@ -91,21 +110,26 @@ body{
     font-size: 13px;
     font-weight: 600;
 }
+
 .login form .have-an-account a {
     text-decoration: none;
     color: var(--text-color-a);
 }
+
 .login form .have-an-account a:hover {
     text-decoration: underline;
 }
+
 .input-group span {
     font-size: 12px;
     margin-top: 2px;
     font-weight: bold;
 }
+
 .input-group {
     position: relative;
 }
+
 .login form .input-group .fa {
     position: absolute;
     right: 0;
@@ -113,15 +137,18 @@ body{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     cursor: pointer;
-    color: var(--dropdown-bg-color);
+    color: var(--input-color);
 }
+
 .login .hide {
     margin-right: 2px;
     display: none;
 }
+
 .login .hide.active {
     display: block;
 }
+
 .login .show.active {
     display: none;
 }

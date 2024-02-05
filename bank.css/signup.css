@@ -67,6 +67,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     background: var(--text-color);
     font-weight: 700;
+    color: var(--input-color);
 }
 .signup #select{
     margin-top: 5px;
@@ -79,6 +80,7 @@ body{
     border: 1px solid var(--dropdown-text-color);
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    color: var(--input-color);
 }
 .signup form button {
     width: 50%;
