@@ -152,3 +152,9 @@ body {
 .login .show.active {
     display: none;
 }
+
+.login button a {
+    text-decoration: none;
+    color: var(--header-bg-color);
+    font-size: 17px;
+}

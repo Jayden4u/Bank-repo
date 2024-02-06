@@ -144,3 +144,8 @@ body{
 .signup .show.active {
     display: none;
 }
+
+.signup button a {
+    text-decoration: none;
+    color: var(--header-bg-color);
+}
